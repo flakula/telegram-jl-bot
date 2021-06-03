@@ -79,9 +79,6 @@ def unknown(update, context):
         text="Sorry, I didn't understand that command."
     )
 
-
-def test_all():
-	return True
 	
 if __name__ == '__main__':
     bot = telegram.Bot(token=TOKEN)
