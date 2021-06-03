@@ -80,6 +80,9 @@ def unknown(update, context):
     )
 
 
+def test_all():
+	return True
+	
 if __name__ == '__main__':
     bot = telegram.Bot(token=TOKEN)
     updater = Updater(token=TOKEN, use_context=True)
