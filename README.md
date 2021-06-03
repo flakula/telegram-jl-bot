@@ -8,4 +8,4 @@ Un sencillo bot de telegram para aprender.
 
 ## Hosteado 
 
-* [pythonanywhere](www.pythonanywhere.com)
+* [pythonanywhere](https://www.pythonanywhere.com)
