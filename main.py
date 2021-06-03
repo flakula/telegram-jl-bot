@@ -91,7 +91,7 @@ if __name__ == '__main__':
     inline_caps_h     = InlineQueryHandler(inline_caps)
     unknown_h         = MessageHandler(Filters.command, unknown)
     
-    dispatcher.add_handler(start_handler)
+    dispatcher.add_handler(start_h)
     dispatcher.add_handler(echo_h)
     dispatcher.add_handler(caps_h)
     dispatcher.add_handler(inline_caps_h)
